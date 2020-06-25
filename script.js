@@ -1,10 +1,10 @@
 "use strict";
 let x = document.getElementById("myLinks");
 let imagenes=new Array('',
-        '/Imagenes/cp1.jpg',
-        '/Imagenes/cp2.png',
-        '/Imagenes/cp3.png',
-        '/Imagenes/cp4.png'
+        'Imagenes/cp1.jpg',
+        'Imagenes/cp2.png',
+        'Imagenes/cp3.png',
+        'Imagenes/cp4.png'
     
     );
 
