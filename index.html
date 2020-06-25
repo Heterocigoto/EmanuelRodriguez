@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-nav.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <title>Emanuel Rodríguez Leitón</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <img src="/Imagenes/ERL.png" alt="logo" class="logo">
+              
+            <nav>
+                <ul class="nav">
+                    <li> <a href="#Inicio">  Inicio</a></li>
+                    <li><a href="#Estudio">Estudios</a></li>
+                    <li><a href="#Proyectos">Proyectos</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+                <div class="topnav">
+                    <div id="myLinks">
+                        <a href="#Inicio">Inicio</a>
+                        <a href="#Estudio">Estudios</a>
+                        <a href="#Proyectos">Proyectos</a>
+                        <a href="#Contacto">Contacto</a>
+                    </div>
+                    <a class="icon" onclick="mobileNav()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                </div>	
+            </nav>
+            
+        </div>
+    </header>
+    <main>
+        <div class= "foro1" class="Inicio"> 
+            <div>
+                <img src="/Imagenes/erl1.jpg" alt="" srcset="" class="img-foro">
+            </div>
+
+            <div>
+                <h1>¿Quién es Emanuel?</h1>
+                <p>Provengo de un pequeño pueblo dedicado principalmente al turismo, donde lo más preciado que
+                tengo es una familia que me inculcó los valores y me apoyó desde un inicio con mis ideas así como mis
+                proyectos a futuro. Soy una persona apasionada por la tecnología y la naturaleza, desde pequeño pensé
+                que la tecnología era algo maravilloso al pensarlo y transformarlo dentro de un ordenador.
+                 Me dedico a la computación e informática, en desarrollo web, bases de datos y 
+                programas de escritorio, la programación y la solución de problemas considero que son mi fuerte
+                ya que me motiva cada vez tener un reto hasta superarlo 
+
+                </p>
+            </div>
+        </div>
+        <div class= "foro1" id="Estudio">
+            <div>
+                <h1>¿Cuál ha sido mi formación académica?</h1>
+                <p>Durante la etapa de secundaria me desempeñé en el colegio de mi pueblo
+                en el que estuve por seis años hasta obtener mi titulo de bachiller junto a un técnico medio de 
+                turismo ecológico, posterior a esto, concursé por la carrera de Informática Empresarial
+                en la Universidad de Costa Rica en la que me desempeñé durante al menos cuatro años y donde considero
+                que mi conocimiento humanístico y profesional se disparó gracias a la beca de estudio que ofrece la educación pública en mi país.
+            </p>
+            </div>
+            <div>
+                <img src="/Imagenes/erl3.jpg" class="img-foro">
+            </div>
+        </div>
+        <div class= "foro1" id="Proyectos">
+            <div class="carrusel">   
+                <img src="" id="imagen" class="img-foro">
+            </div>
+            <div>
+                <h1>¿Cuáles son mis proyectos?</h1>
+                <p>El paso a través de la universidad me planteó una serie de retos debido a 
+                    la cantidad de problemas que se abordaban en casi todos los cursos orientados a 
+                    la carrera, entre ellos desarrollo principalmente para plataformas de escritorio y web,
+                    sin embargo, el verdadero reto y de mayor auge en conocimiento se dió en la implementación 
+                    del videojuego Spin Body Learn donde se formó un enlace entre la parte gráfica, el desarrollo en Unity que 
+                    era completamente nuevo para el equipo de trabajo junto con la programación tomando en cuenta 
+                    la física así como el licenciamiento y conocimiento de las respectivas legislaciones vinculadas
+                    al desarrollo de propiedad intelectual.
+            </p>
+            </div>
+        </div>
+        <div class= "foro1" id="Contacto">
+            <div>
+                <img src="/Imagenes/contact.png" alt="" srcset="" class="img-Contacto">
+            </div>
+
+            <div class="contacto">
+                <h1>¿Desea contactarme?</h1>
+                <p>Para mí será más que un gusto establecer contacto con usted, puede escribirme 
+                    un correo electrónico sólo llenando los siguientes datos y yo le responderé en
+                    la mayor brevedad posible.
+                </p>
+                <form>
+                    <div>
+                    <h4>Su correo electrónico:</h4>
+                    <input type="text" name="correo" id="" placeholder="E-mail...">
+                    <h4>Asunto del mensaje</h4>
+                    <input type="text" name="asunto" id="" placeholder="Asunto...">
+                    <h4>Redacte su mensaje:</h4>
+                    <textarea placeholder="Mensaje..."></textarea>
+                    <button type="submit">Enviar mensaje</button>
+                    </div>
+                 </form>
+            </div>
+        </div>
+        </article>
+  
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

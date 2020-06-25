@@ -1,0 +1,36 @@
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: var(--header);
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+      text-align: center;
+    display: none;
+  }
+  .topnav a.icon {
+    background: var(--headerTab);
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  
+  
+  .topnav a:hover {
+    background-color: var(--headerTab);
+    color: black;
+  }
+
+

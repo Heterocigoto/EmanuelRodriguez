@@ -1,0 +1,164 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+:root{
+    --header:  #1a5276;
+    --headerTab: #1a5276;
+    --hover:#1d5c83;
+    --color:#b3afaf;
+}
+body{
+    background-color:  #dce6e6;
+}
+h1{
+    font-size: calc(1.1em + 1vw);
+    text-align: center;
+    color: #17202a;
+}
+h2{
+    font-size: calc(1.5em + 1vw);
+}
+h3{
+    font-size: calc(1em + 1vw);
+    text-align: left;
+}
+h4{
+    font-size: calc(0.5em + 1vw);
+    color: #17202a;
+}
+input{
+    border-radius: 2px;
+    width: 60%;
+    height: 40px;
+}
+textarea{
+    border-radius: 2px;
+    width: 60%;
+    height: 80px;
+}
+button{
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+
+}
+p{
+    font-size: calc(0.4em + 1vw);
+    line-height: 2em;
+    text-overflow: word-break;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #17202a;
+}
+a{
+    text-align: center;
+    color: var(--color);
+    background-color: var(--headerTab);
+    font-size: calc(1em + 1vw);
+    text-decoration: none;
+    display: inline-block;
+    padding: 3vh
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--header);
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px cadetblue;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    
+}   
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    
+
+}
+li{
+    background-color: var(--headerTab);
+    display: inline-block;
+    width: auto;
+    height: auto;
+    
+}
+li a:hover{
+    background-color: var(--hover);
+}
+
+.logo{
+    margin-top: auto;
+    width:40%;
+    height:auto;
+}
+.foro1{
+    box-shadow: 5px 5px 5px 5px cadetblue;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.contacto{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+form div{
+
+    display: block;
+    margin-left: 5%;
+}
+.img-foro{
+    margin-top: auto;
+    width: 100%;
+    height: 100%;   
+}
+.img-Contacto{
+width: 100%;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 10%;
+    
+}
+.carrusel{
+    margin: auto;
+    background-color: var(--headerTab);
+    width:400%;
+    height: auto;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 5px;
+    margin-right: 10px;
+   
+}
+.topnav{
+    display: none;
+}
+
+@media  screen and (max-width: 1092px){
+
+.encabezado{
+    margin: auto;
+} 
+li{
+    display: block;
+    justify-content: space-around;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav{
+      display: initial;
+  }
+  .nav{
+      display: none;
+  }
+
+}
